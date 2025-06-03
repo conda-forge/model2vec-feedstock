@@ -1,5 +1,5 @@
 {% set name = "model2vec" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/model2vec-{{ version }}.tar.gz
-  sha256: 0771fd99d5c58fac631a2faa233759a8cec7a3be6e9aeeeeeca2d5e7048d1c7b
+  sha256: 8f09086781660a8364b0bcadc601a06045a08f62985da90f50b703148f9b09e0
 
 build:
   noarch: python
